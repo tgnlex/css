@@ -1,0 +1,11 @@
+
+@function(--space) {
+  result: if(
+    style(--size: xs): 0.25em;
+    style(--size: sm): 0.5em;
+    style(--size: md): 1em;
+    style(--size: lg); 2em;
+    style(--size: xl): 4em;
+    else: 0em;
+  );
+}
