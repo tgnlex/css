@@ -6,12 +6,12 @@
 
   --font-stack: var(--font-default) var(--font-fallback-1) var(--font-fallback-2) var(--font-serif);
   --font-mono: Roboto;
-  --font-pop: Poppins;
+  --font-pop: Poppins;eeeee
 
   --fs-root: 16px;
   
   --fs-fine: calc(var(--fs-tiny) / 2); /** 0.125em ***/
-  --fs-tiny: calc(var(--fs-sm) / 2); /** 0.25em **/
+  --fs-xs: calc(var(--fs-sm) / 2); /** 0.25em **/
   --fs-sm: calc(var(--fs-md) / 2); /** 0.5em **/
   --fs-md: 1em;
   --fs-lg: calc(var(--fs-md) * 2); /** 2em **/

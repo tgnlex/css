@@ -1,8 +1,9 @@
 
 :root {
-   /*** DEVICE SIZES ***/
-  --mobile: 600px;
-  --tablet: 720px;
-  --laptop: 920px;
-  --pc: 1200px;
+   /*** DEVICE WIDTHS ***/
+  --mobile: 600px; /*** MAX WIDTH ***/
+  --tablet: 720px; /*** MIN WIDTH ***/
+  --laptop: 920px; /*** MIN WIDTH ***/
+  --pc: 1200px;    /*** MIN WIDTH ***/
+  --pc-lg: 1020px;
 }

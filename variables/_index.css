@@ -5,4 +5,9 @@
 @import "_borders.css";
 @import "_shadow.css";
 @import "_animation.css";
+@import "_gradients.css";
 
+:root {
+   --letter-spacing: 0.18px;
+   --opaque: 0.8;
+ }
