@@ -1,0 +1,3 @@
+:root {
+  --gradient--blue: linear-gradient(var(--clr--blue--100) var(--clr--blue--50));
+}
