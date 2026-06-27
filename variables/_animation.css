@@ -1,24 +1,18 @@
 :root {
-/*** SPIN ANIMATION ***/
-  --1s: 1000ms;
-  --2s: 2000ms;
-  --3s: 3000ms;
-  --4s: 4000ms;
-  --5s: 5000ms;
-  --1min: 60s;
-  --2-min: 120s;
-  --3-min: 180s;
-  --4-min: 240s;
-  --5-min: 300s;
-  --10-min: 600s;
-  --anim--spin--base: spin infine linear;
-
+  /*** SPIN ANIMS ***/
   --anim--spin: spin infinite var(--third-min) linear;
   --anim--spin--slow: spin infinite var(--half-min) linear;
   --anim--spin--fast: spin infinite var(--sixth-min) linear;
-  --anim--scroll: scroll 40s;
+  /*** SCROLL ANIMS ***/
+  --anim--scroll: scroll calc(var(--third-min) * 2);
+  --anim--scroll--slow: scroll var(--min);
+  --anim--scroll--fast: scroll var(--third-min);
+  /*** SLIDE ANIMS ***/
   --anim--slide-in--1a: slide-in var(--1s);
   --anim--slide-out--1s: slide-out var(--1s);
   --anim--slide-in--5s: slide-in var(--5s);
-  --anim--slide-out--5s: slide-out: var(--5s);
+  --anim--slide-out--5s: slide-out var(--5s);
+  /*** PULSE ANIMS ***/
+  --anim--pulse--1s: pulse var(--1s);
+  --anim--pulse--2s: pulse var(--2s);
 }
