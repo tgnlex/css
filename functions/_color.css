@@ -1,0 +1,4 @@
+@function --transparent (--color: green, --amount: 0.5) {
+  result: hsl(from var(--color) h s l / var(--amount));
+}
+

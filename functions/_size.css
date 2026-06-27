@@ -1,0 +1,31 @@
+@function --space (--size) {
+  result: if(
+    style(--size: xs): 0.25rem;
+    style(--size: sm): 0.5rem;
+    style(--size: md): 1rem;
+    style(--size: lg): 2rem;
+    style(--size: xl): 4rem;
+    else: 0em;
+  );
+}
+
+@function --fs (--size) {
+  result: if(
+    style(--size: fine): var(--fs-fine);
+    style(--size: xs): var(--fs-xs);
+    style(--size: sm): var(--fs-sm);
+    style(--size: md): var(--fs-md);
+    style(--size: lg): var(--fs-lg);
+    style(--size: xl): var(--fs-xl);
+  );
+}
+
+@function --device (--type) {
+  result: if (
+    style(--type: mobile): var(--mobile);
+    style(--type: tablet): var (--tablet);
+    style(--type: laptop): var(--laptop);
+    style(--type: pc): var(--pc);
+    style(--type: pc-lg): var(--pc-lg)
+  )
+}
