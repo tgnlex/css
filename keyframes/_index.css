@@ -33,3 +33,12 @@
     transform: translateX(-100%);
   }
 }
+
+@keyframes pulse {
+  from {
+    opacity: .5;
+  }
+  to {
+    opacity: 1;
+  }
+}

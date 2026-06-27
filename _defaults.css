@@ -1,0 +1,12 @@
+
+
+
+h1 {
+  --default--h1--fs: 6rem;
+  --default--h1--lh: 1.1;
+  --default--h1--m: 0;
+  
+  margin: var(--defailt--h1--m);
+  font-size: var(--default--h1--fs);
+
+}

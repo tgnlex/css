@@ -1,6 +1,7 @@
 @import "./keyframes/_index.css";
 @import "./variables/_index.css";
 @import "./functions/_index.css";
+@import "./_defaults.css";
 @import "./utilities/_index.css";
 @import "./modules/_index.css";
 
