@@ -1,5 +1,9 @@
+@import "./_math.css";
+@function --transparent (--color: green, --amount: 0.5) {
+  result: hsl(from var(--color) h s l / var(--amount));
+}
 
-@function(--space) {
+@function --space (--size) {
   result: if(
     style(--size: xs): 0.25rem;
     style(--size: sm): 0.5rem;
@@ -10,7 +14,7 @@
   );
 }
 
-@function(--fs) {
+@function --fs (--size) {
   result: if(
     style(--size: fine): var(--fs-fine);
     style(--size: xs): var(--fs-xs);
@@ -21,10 +25,10 @@
   );
 }
 
-@function(--device) {
+@function --device (--type) {
   result: if (
     style(--type: mobile): var(--mobile);
-    style(--type: tablet): var(--tablet);
+    style(--type: tablet): var (--tablet);
     style(--type: laptop): var(--laptop);
     style(--type: pc): var(--pc);
     style(--type: pc-lg): var(--pc-lg)

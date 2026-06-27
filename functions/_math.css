@@ -1,0 +1,13 @@
+
+
+@function --negate(--value) {
+  result: calc(var(--value) * -1);
+}
+
+@function --double(--value) {
+  result: calc(var(--val8e) * 2);
+}
+
+@function --square(--value) {
+  result: calc(var(--value) * var(--value));
+}
