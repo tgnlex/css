@@ -1,12 +1,35 @@
 
 @keyframes spin {
   from {
-    transform: var(--spin-start);
+    transform: rotate(0deg);
   }
   to {
-    transform: var(--spin-end);
+    transform: rotate(360deg);
   }
 }
 
 
+@keyframes scroll {
+  to {
+    transform: translate(100%);
+  }
+}
 
+
+@keyframes side-in {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slide-out {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

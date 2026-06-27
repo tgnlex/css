@@ -1,0 +1,30 @@
+:root {
+  --1s: 1000ms;
+  --2s: 2000ms;
+  --3s: 3000ms;
+  --4s: 4000ms;
+  --5s: 5000ms;
+  --6s: 6000ms;
+  --7s: 7000ms;
+  --8s: 8000ms;
+  --9s: 9000ms;
+  --10s: 10000ms;
+
+  --sixth-min: 10s;
+  --fifth-min: 12s;
+  --fourth-min: 15s;
+  --third-min: 20s;
+  --half-min: 30s;
+  --1-min: 60s;
+  --2-min: 120s;
+  --3-min: 180s;
+  --4-min: 240s;
+  --5-min: 300s;
+  --6-min: 360s;
+  --7-min: 420s;
+  --8-min: 480s;
+  --9-min: 540s;
+  --10-min: 600s;
+
+}
+
