@@ -8,5 +8,5 @@ h1 {
   
   margin: var(--defailt--h1--m);
   font-size: var(--default--h1--fs);
-
+  line-height: var(--default--h1--lh);
 }

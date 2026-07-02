@@ -9,5 +9,5 @@
   --content--width--lg: calc(var(--content--width) * 1.5); /** 90ch **/
   --content--width--sm: calc(var(--content--width--lg) / 2); /** 45ch **/
 
-
+  --btn--inline-size: min(90vw, 28rem);
 }

@@ -8,7 +8,7 @@
   --anim--scroll--slow: scroll 60s;
   --anim--scroll--fast: scroll 20s;
   /*** SLIDE ANIMS ***/
-  --anim--slide-in: slide-in var(--1s) ease-out forwards;
+  --anim--slide-in: slide-in var(--1s);
   --anim--slide-out: slide-out var(--1s);
   /*** PULSE ANIMS ***/
   --anim--pulse--1s: pulse var(--1s);
