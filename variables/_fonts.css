@@ -7,19 +7,18 @@
   --font-stack: var(--font-default) var(--font-fallback-1) var(--font-fallback-2) var(--font-serif);
   --font-mono: Roboto;
   --font-pop: Poppins;
-
-  --fs-root: 16px;
-  
-  --fs-fine: calc(var(--fs-tiny) / 2); /** 0.125em ***/
-  --fs-xs: calc(var(--fs-sm) / 2); /** 0.25em **/
-  --fs-sm: calc(var(--fs-md) / 2); /** 0.5em **/
-  --fs-md: 1em;
-  --fs-lg: calc(var(--fs-md) * 2); /** 2em **/
-  --fs-xl: calc(var(--fs-lg) * 2); /** 4em **/
-
   /*** FONT SIZES ***/  
+  --fs-root: 16px;
+
+  --fs-fine: min(calc(var(--fs-root) / 4), 0.4rem);
+  --fs-tiny: min(calc(var(--fs-root) / 3), 0.6rem);
+  --fs-sm: min(calc(var(--fs-root) / 2), 0.8rem);
+  --fs-text: min(var(--fs-root), 1.6rem);
+  --fs-lg: min(calc(var(--fs-root) * 1.5), 2.4rem);
+  --fs-xl: min(calc(var(--fs-root) * 2), 3.2rem);
+  
+
   --fs-btn: clamp(0.8rem 1.25em 1.4rem);
-  --fs-text: clamp(0.5rem 1.2em 1.8rem);
   --fs-link: clamp(1rem 1.4em 2rem);
   --fs-head: clamp(2.5rem 3em 4rem);
 
