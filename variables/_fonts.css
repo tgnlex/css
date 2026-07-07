@@ -18,7 +18,4 @@
   --fs-xl: min(calc(var(--fs-root) * 2), 3.2rem);
   --fs-head: min(calc(var(--fs-root) * 2.5), 4rem);  
 
-  --fs-btn: clamp(0.8rem 1.25em 1.4rem);
-  --fs-link: clamp(1rem 1.4em 2rem);
-
 }
