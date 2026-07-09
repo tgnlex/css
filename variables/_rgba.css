@@ -2,7 +2,6 @@
 :root { 
 
 
-
   --rgb-black: 12, 12, 12;
   --rgb-gray: 120, 120, 120;
 
@@ -29,7 +28,7 @@
   --rgb-emerald: 80, 200, 120;
   --rgb-forest: 34, 139, 34;
   
-  --rgb-pink 255, 192, 203;
+  --rgb-pink: 255, 192, 203;
   --rgb-pastel-pink: 255, 192, 203;
   
   --rgb-white: 224, 224, 224;
