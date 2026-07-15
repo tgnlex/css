@@ -1,19 +1,6 @@
-w
-.center {
-  justify-content: center;
-  align-items: center;
-}
-
-.space {
-  justify-content: space-between;
-}
-
-.m-auto { margin: auto;}
-
-.pad-1 { padding: 1em; }
-.pad-2 { padding: 2em; }
-.pad-3 { padding: 3em; }
-.pad-4 { padding: 4em; }
-.pad-5 { padding: 5em; }
-
+.center { justify-content: center; align-items: center; }
+.space {justify-content: space-between; }
+.opaque { opacity: 0.8; }
+.hidden { visibility: hidden; }
+.none { display: none; }
 

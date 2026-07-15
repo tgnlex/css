@@ -1,7 +1,10 @@
 .inline-block { display: inline-block; }
 .inline { display: inline; }
+.block { display: block; }
 .grid { display: grid; }
 .flex { display: flex; }
+.none { display: none; }
+.flow { display: flow-root; }
 
 .row {  display: flex; flex-direction: row; }
 .col { display: flex; flex-direction: column }
@@ -25,5 +28,5 @@
 .sticky { position: sticky }
 .absolute { position: absolute }
 .static { position: static }
-.fixed { position:fixed }
+.fixed { position: fixed }
 .relative { position: relative }
