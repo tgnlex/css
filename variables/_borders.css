@@ -8,8 +8,8 @@
    --border-double-lg: 6px double;
    /*** BLACK BORDERS ***/
   --border--sm--black: var(--border-sm) var(--clr--black--100);
-  --border--md--black: var(--border-md) var(--clr--black-100);
-  --border--lg--black: var(--border-lg) var(--clr--black-100);
+  --border--md--black: var(--border-md) var(--clr--black--100);
+  --border--lg--black: var(--border-lg) var(--clr--black--100);
 
 
     /** WHITE BORDERS **/   
