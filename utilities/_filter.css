@@ -1,0 +1,5 @@
+
+
+.grayscale { filter: var(--filter--grayscale); }
+.hue-invert { filter: var(--filter--invert); }
+.blur { filter: var(--filter--blur)}

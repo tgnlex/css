@@ -1,0 +1,5 @@
+:root {
+  --filter--grayscale: grayscale(90%);
+  --filter--invert: hue-rotate(180deg);
+  --filter--blur: blur(5px);
+}
