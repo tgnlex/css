@@ -20,7 +20,7 @@
   }
 }
 
-.list--inline {
+.list.inline {
   --margin: 0;
   --pad: 0.5em;
   --gap: 3vw;

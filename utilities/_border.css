@@ -25,9 +25,9 @@
   .border-rebecca { border-color: var(--clr--rebecca--100); }
   .border-clear { border-color: transparent; };
   
-  .border-black-sm { border: var(--border--sm--white); }
-  .border-black-md { border: var(--border--md--white); }
-  .border-black-lg { border: var(--border--lg--white); }
+  .border-black-sm { border: var(--border--sm--black); }
+  .border-black-md { border: var(--border--md--black); }
+  .border-black-lg { border: var(--border--lg--black); }
 
   .border-white-sm { border: var(--border--sm--white); }
   .border-white-md { border: var(--border--md--white); }
