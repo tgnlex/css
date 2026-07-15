@@ -5,7 +5,7 @@
 }
 
 @function --double(--value) {
-  result: calc(var(--val8e) * 2);
+  result: calc(var(--value) * 2);
 }
 
 @function --square(--value) {
