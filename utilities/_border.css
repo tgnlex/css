@@ -23,7 +23,7 @@
   .border-green { border-color: var(--clr--green--100); }
   .border-purple { border-color: var(--clr--purple--100); }
   .border-rebecca { border-color: var(--clr--rebecca--100); }
-  .border-clear { border-color: transparent; };
+  .border-clear { border-color: transparent; }
   
   .border-black-sm { border: var(--border--sm--black); }
   .border-black-md { border: var(--border--md--black); }

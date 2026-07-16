@@ -1,12 +1,8 @@
 :root {
-  --font-default: system-ui;
-  --font-fallback-1: Avenir;
-  --font-fallback-2: Helvetica;
-  --font-sans: sans-serif;
-
-  --font-stack: var(--font-default) var(--font-fallback-1) var(--font-fallback-2) var(--font-serif);
+  --font-stack: Arial, Helvetica, sans-serif;
   --font-mono: Roboto;
   --font-pop: Poppins;
+  --font-sans: sans-serif;
   /*** FONT SIZES ***/  
   --fs-root: 16px;
 
